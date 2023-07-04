@@ -1,0 +1,29 @@
+@mixin Width-Height($Wsize, $Hsize) {
+  width: $Wsize;
+  height: $Hsize;
+};
+@mixin landscape-phone {
+  @media screen and (max-width: 576px){
+    @content
+  }
+};
+@mixin tablet {
+  @media screen and (max-width: 768px){
+    @content
+  }
+};
+@mixin desktop {
+  @media screen and (max-width: 992px){
+    @content
+  }
+};
+@mixin large-desktop {
+  @media screen and (max-width: 1200px){
+    @content
+  }
+};
+@mixin larger-desktop {
+  @media screen and (max-width: 1400px){
+    @content
+  }
+};
