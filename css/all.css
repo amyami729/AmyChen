@@ -169,8 +169,7 @@
   color: #fff;
   background: gray;
   padding: 17px 40px;
-  font-weight: 700;
-  font-family: "Oleo Script", cursive;
+  font-weight: 350;
 }
 @media screen and (max-width: 992px) {
   .about .about-content .my-articles .articles-box a {
